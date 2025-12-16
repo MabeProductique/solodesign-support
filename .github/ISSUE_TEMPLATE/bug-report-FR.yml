@@ -2,7 +2,7 @@ name: "Rapport de bogue"
 description: "Signalez un bogue"
 labels: ["bug"]
 projects:
-  - "SoloDesign-Support"
+  - "21"
   
 body:
   - type: markdown
