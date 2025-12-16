@@ -1,0 +1,46 @@
+name: "Rapport de bogue"
+description: "Signalez un bogue"
+labels: ["bug"]
+projects:
+  - "SoloDesign-Support"
+  
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Merci de remplir les sections ci-dessous pour nous aider à identifier et corriger le bogue.
+
+  - type: textarea
+    id: description
+    attributes:
+      label: "Décrivez votre problème *"
+      placeholder: "Par exemple : Lorsque je clique ici, cela se produit..."
+    validations:
+      required: true
+
+  - type: textarea
+    id: steps
+    attributes:
+      label: "Étapes pour reproduire *"
+      placeholder: |
+        1. Aller à la page X
+        2. Cliquer ici
+        3. Cliquer là
+    validations:
+      required: true
+
+  - type: textarea
+    id: expected
+    attributes:
+      label: "Résultat attendu"
+      placeholder: "J'attendais que cela se produise..."
+
+  - type: textarea
+    id: screenshots
+    attributes:
+      label: "Ajoutez ici des captures d’écran ou vidéos (facultatif)"
+
+  - type: markdown
+    attributes:
+      value: |
+        Merci d’avoir signalé ce bogue ! Nous vous répondrons dès que possible.

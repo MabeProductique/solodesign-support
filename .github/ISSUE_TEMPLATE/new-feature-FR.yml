@@ -1,0 +1,37 @@
+name: "Nouvelle fonctionnalité"
+description: "Suggérez ou demandez une nouvelle fonctionnalité"
+labels: ["enhancement"]
+projects:
+  - "SoloDesign-Support"
+  
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Merci de remplir les sections ci-dessous pour décrire correctement la nouvelle fonctionnalité que vous suggérez.
+
+  - type: textarea
+    id: description
+    attributes:
+      label: "Décrivez la fonctionnalité *"
+      placeholder: "Exemple : Un bouton sur l’écran X qui permet de faire Y"
+    validations:
+      required: true
+
+  - type: textarea
+    id: rationale
+    attributes:
+      label: "Pourquoi cela devrait être implémenté"
+      placeholder: "Cela permettra de faire Y, ce qui est nécessaire pour Z"
+
+  - type: textarea
+    id: context
+    attributes:
+      label: "Contexte additionnel"
+      placeholder: |
+        Ajoutez ici tout contexte supplémentaire ou captures d’écran concernant la demande de fonctionnalité.
+
+  - type: markdown
+    attributes:
+      value: |
+        Merci pour votre suggestion ! Nous allons examiner ensemble si elle peut être implémentée.
