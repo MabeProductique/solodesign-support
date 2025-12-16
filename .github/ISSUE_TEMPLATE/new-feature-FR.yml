@@ -2,7 +2,7 @@ name: "Nouvelle fonctionnalité"
 description: "Suggérez ou demandez une nouvelle fonctionnalité"
 labels: ["enhancement"]
 projects:
-  - "SoloDesign-Support"
+  - "21"
   
 body:
   - type: markdown

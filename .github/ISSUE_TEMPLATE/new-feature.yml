@@ -2,7 +2,7 @@ name: New feature
 description: Suggest or request a new feature
 labels: ["enhancement"]
 projects:
-  - "SoloDesign-Support"
+  - "21"
   
 body:
   - type: markdown
